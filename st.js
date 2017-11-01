@@ -50,7 +50,7 @@ app.controller("stController",
     $scope.autor = true;
     $scope.pesquisar = true;
     $scope.orientacoes = [
-      { name: '--Escolha--', value: undefined },
+//      { name: '--Escolha--', value: undefined },
       { name: 'cima-baixo', value: 'UD' },
       { name: 'baixo-cima', value: 'DU' },
       { name: 'direita-esquerda', value: 'LR' },
