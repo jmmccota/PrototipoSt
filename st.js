@@ -56,7 +56,7 @@ app.controller("stController",
       { name: 'direita-esquerda', value: 'LR' },
       { name: 'esquerda-direita', value: 'RL' },
     ];
-    $scope.orientacao = undefined;
+    $scope.orientacao = 'UD';
     let desenhar = (nos, arestas) => {
       var nodes = new vis.DataSet(nos);
       var edges = new vis.DataSet(arestas);
